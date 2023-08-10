@@ -6,7 +6,9 @@ import android.view.Menu
 import android.view.MenuItem
 import androidx.fragment.app.commit
 import com.google.android.material.navigation.NavigationBarView
+import com.kacperbrozyna.recordkeeper.cycling.CyclingFragment
 import com.kacperbrozyna.recordkeeper.databinding.ActivityMainBinding
+import com.kacperbrozyna.recordkeeper.running.RunningFragment
 
 
 class MainActivity : AppCompatActivity(), NavigationBarView.OnItemSelectedListener {
@@ -48,7 +50,7 @@ class MainActivity : AppCompatActivity(), NavigationBarView.OnItemSelectedListen
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.toolbar, menu)
-        return true;
+        return true
     }
 
     override fun onOptionsItemSelected(item: MenuItem) = when (item.itemId) {

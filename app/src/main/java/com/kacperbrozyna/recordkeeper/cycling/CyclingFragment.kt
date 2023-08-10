@@ -1,4 +1,4 @@
-package com.kacperbrozyna.recordkeeper
+package com.kacperbrozyna.recordkeeper.cycling
 
 import android.content.Intent
 import android.os.Bundle
